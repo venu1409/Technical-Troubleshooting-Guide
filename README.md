@@ -24,7 +24,7 @@ This project demonstrates:
 
 ------------------------------------------------------------------------
 
-## 🧠 Architecture
+## Architecture
 
 User Query\
 ↓\
@@ -40,7 +40,7 @@ Structured Technical Response
 
 ------------------------------------------------------------------------
 
-## 🛠 Tech Stack
+## Tech Stack
 
 -   Python\
 -   Streamlit (UI)\
@@ -64,7 +64,7 @@ technical-troubleshooting-rag/
 
 ------------------------------------------------------------------------
 
-## 🔍 How It Works
+## How It Works
 
 ### 1️⃣ Retrieval (RAG)
 
@@ -89,7 +89,7 @@ technical-troubleshooting-rag/
 
 ------------------------------------------------------------------------
 
-## 📊 Token Optimization
+## Token Optimization
 
 The system displays:
 
@@ -106,7 +106,7 @@ This demonstrates real-world GenAI cost optimization.
 
 ------------------------------------------------------------------------
 
-## 💻 Installation & Setup
+## Installation & Setup
 
 ### 1️⃣ Clone Repository
 
@@ -129,7 +129,7 @@ streamlit run app.py
 
 ------------------------------------------------------------------------
 
-## 🧪 Example Queries
+## Example Queries
 
 -   WiFi not working\
 -   Laptop overheating\
@@ -140,7 +140,7 @@ streamlit run app.py
 
 ------------------------------------------------------------------------
 
-## ✨ Key Features
+## Key Features
 
 ✔ Retrieval-Augmented Generation (RAG)\
 ✔ Semantic similarity search\
@@ -151,7 +151,7 @@ streamlit run app.py
 
 ------------------------------------------------------------------------
 
-## 📈 Why This Project Matters
+## Why This Project Matters
 
 In production AI systems:
 
@@ -164,7 +164,7 @@ speed, and accuracy.
 
 ------------------------------------------------------------------------
 
-## 🔮 Future Improvements
+## Future Improvements
 
 -   Add similarity score visualization\
 -   Add document upload support\
@@ -174,6 +174,6 @@ speed, and accuracy.
 
 ------------------------------------------------------------------------
 
-## 👨‍💻 Author
+## Author
 
 Built as part of GenAI Internship Program (Session 2 -- RAG Systems).
