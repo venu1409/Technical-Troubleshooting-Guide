@@ -110,7 +110,7 @@ This demonstrates real-world GenAI cost optimization.
 
 ### 1️⃣ Clone Repository
 
-git clone `<your-repo-link>`{=html}\
+git clone `<your-repo-link>`\
 cd technical-troubleshooting-rag
 
 ### 2️⃣ Install Dependencies
