@@ -26,15 +26,15 @@ This project demonstrates:
 
 ## 🧠 Architecture
 
-User Query\
+User Query
 ↓\
-Sentence Transformer Embedding\
+Sentence Transformer Embedding
 ↓\
-FAISS Vector Search (Top-K Retrieval)\
+FAISS Vector Search (Top-K Retrieval)
 ↓\
-Context Compression (ScaleDown)\
+Context Compression (ScaleDown)
 ↓\
-GPT-4o via ScaleDown\
+GPT-4o via ScaleDown
 ↓\
 Structured Technical Response
 
@@ -42,11 +42,11 @@ Structured Technical Response
 
 ## 🛠 Tech Stack
 
--   Python\
--   Streamlit (UI)\
--   FAISS (Vector Search)\
--   Sentence Transformers (Embeddings)\
--   ScaleDown API (Context Compression + LLM)\
+-   Python
+-   Streamlit (UI)
+-   FAISS (Vector Search)
+-   Sentence Transformers (Embeddings)
+-   ScaleDown API (Context Compression + LLM)
 -   GPT-4o (via ScaleDown)
 
 ------------------------------------------------------------------------
@@ -55,11 +55,11 @@ Structured Technical Response
 
 technical-troubleshooting-rag/
 
-├── app.py\
-├── rag_pipeline.py\
-├── knowledge_base.json\
-├── requirements.txt\
-├── .env\
+├── app.py
+├── rag_pipeline.py
+├── knowledge_base.json
+├── requirements.txt
+├── .env
 └── README.md
 
 ------------------------------------------------------------------------
@@ -68,23 +68,23 @@ technical-troubleshooting-rag/
 
 ### 1️⃣ Retrieval (RAG)
 
--   User query is converted into embeddings\
--   FAISS retrieves top relevant troubleshooting entries\
+-   User query is converted into embeddings
+-   FAISS retrieves top relevant troubleshooting entries
 -   Only relevant context is selected
 
 ### 2️⃣ Context Compression
 
--   ScaleDown compresses retrieved context\
--   Removes irrelevant tokens\
+-   ScaleDown compresses retrieved context
+-   Removes irrelevant tokens
 -   Optimizes prompt before model call
 
 ### 3️⃣ Generation
 
--   GPT-4o generates structured troubleshooting output\
+-   GPT-4o generates structured troubleshooting output
 -   Response includes:
-    -   Issue detected\
-    -   Root cause\
-    -   Resolution steps\
+    -   Issue detected
+    -   Root cause
+    -   Resolution steps
     -   Optimization metrics
 
 ------------------------------------------------------------------------
@@ -93,13 +93,13 @@ technical-troubleshooting-rag/
 
 The system displays:
 
--   Original token count\
--   Compressed token count\
+-   Original token count
+-   Compressed token count
 -   Compression efficiency percentage
 
-Example:\
-- Original Tokens: 115\
-- Compressed Tokens: 32\
+Example:
+- Original Tokens: 115
+- Compressed Tokens: 32
 - \~72% token reduction
 
 This demonstrates real-world GenAI cost optimization.
@@ -131,22 +131,22 @@ streamlit run app.py
 
 ## 🧪 Example Queries
 
--   WiFi not working\
--   Laptop overheating\
--   Excel not opening\
--   VPN not connecting\
--   High CPU usage\
+-   WiFi not working
+-   Laptop overheating
+-   Excel not opening
+-   VPN not connecting
+-   High CPU usage
 -   USB device not recognized
 
 ------------------------------------------------------------------------
 
 ## ✨ Key Features
 
-✔ Retrieval-Augmented Generation (RAG)\
-✔ Semantic similarity search\
-✔ Context compression using ScaleDown\
-✔ Token usage tracking\
-✔ Enterprise-style structured output\
+✔ Retrieval-Augmented Generation (RAG)
+✔ Semantic similarity search
+✔ Context compression using ScaleDown
+✔ Token usage tracking
+✔ Enterprise-style structured output
 ✔ Real-world IT troubleshooting dataset
 
 ------------------------------------------------------------------------
@@ -155,8 +155,8 @@ streamlit run app.py
 
 In production AI systems:
 
--   Token cost directly impacts API billing\
--   Sending large prompts increases latency\
+-   Token cost directly impacts API billing
+-   Sending large prompts increases latency
 -   Context compression improves efficiency
 
 This project simulates an enterprise AI pipeline optimized for cost,
@@ -166,10 +166,10 @@ speed, and accuracy.
 
 ## 🔮 Future Improvements
 
--   Add similarity score visualization\
--   Add document upload support\
--   Add logging and analytics dashboard\
--   Deploy on Streamlit Cloud\
+-   Add similarity score visualization
+-   Add document upload support
+-   Add logging and analytics dashboard
+-   Deploy on Streamlit Cloud
 -   Expand to server-level and cloud-level troubleshooting
 
 ------------------------------------------------------------------------
