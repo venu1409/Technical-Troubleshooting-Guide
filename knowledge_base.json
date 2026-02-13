@@ -1,0 +1,102 @@
+[
+  {
+    "title": "Windows Error 0x80070005",
+    "problem": "Access denied error when installing software.",
+    "solution": "1. Run installer as administrator. 2. Check folder permissions. 3. Disable antivirus temporarily."
+  },
+  {
+    "title": "WiFi Connected but No Internet",
+    "problem": "Connected to WiFi but cannot browse websites.",
+    "solution": "1. Restart router. 2. Run ipconfig /flushdns. 3. Reset network settings."
+  },
+  {
+    "title": "Python ModuleNotFoundError",
+    "problem": "ModuleNotFoundError when running Python script.",
+    "solution": "1. Install module using pip install <module>. 2. Activate correct virtual environment."
+  },
+  {
+    "title": "Windows Blue Screen Error (BSOD)",
+    "problem": "System crashes and shows blue screen with stop code.",
+    "solution": "1. Note the stop code. 2. Update drivers. 3. Run Windows Memory Diagnostic. 4. Check for hardware issues."
+  },
+  {
+    "title": "Disk Usage 100% in Task Manager",
+    "problem": "Computer becomes very slow and disk usage shows 100%.",
+    "solution": "1. Disable Windows Search service. 2. Check for malware. 3. Upgrade to SSD. 4. Update storage drivers."
+  },
+  {
+    "title": "Printer Not Responding",
+    "problem": "Printer is connected but not printing documents.",
+    "solution": "1. Restart printer. 2. Check printer queue. 3. Reinstall printer drivers. 4. Ensure printer is set as default."
+  },
+  {
+    "title": "DNS Server Not Responding",
+    "problem": "Internet connected but cannot resolve websites.",
+    "solution": "1. Change DNS to 8.8.8.8 and 8.8.4.4. 2. Restart router. 3. Flush DNS cache."
+  },
+  {
+    "title": "Laptop Overheating",
+    "problem": "Laptop becomes hot and shuts down automatically.",
+    "solution": "1. Clean internal fans. 2. Replace thermal paste. 3. Use cooling pad. 4. Check background processes."
+  },
+  {
+    "title": "Microsoft Teams Not Opening",
+    "problem": "Teams application crashes on startup.",
+    "solution": "1. Clear Teams cache. 2. Reinstall application. 3. Update Windows. 4. Check firewall settings."
+  },
+  {
+    "title": "Slow Internet Speed",
+    "problem": "Internet works but speed is very low.",
+    "solution": "1. Restart router. 2. Move closer to router. 3. Check bandwidth usage. 4. Upgrade internet plan."
+  },
+  {
+    "title": "USB Device Not Recognized",
+    "problem": "USB device is plugged in but not detected.",
+    "solution": "1. Try different USB port. 2. Update USB drivers. 3. Restart computer. 4. Check device compatibility."
+  },
+  {
+    "title": "Outlook Not Sending Emails",
+    "problem": "Emails stay in outbox and are not delivered.",
+    "solution": "1. Check internet connection. 2. Verify SMTP settings. 3. Disable offline mode. 4. Repair Outlook profile."
+  },
+  {
+    "title": "Google Chrome Crashing",
+    "problem": "Chrome browser closes unexpectedly.",
+    "solution": "1. Disable extensions. 2. Clear cache. 3. Update Chrome. 4. Reinstall browser."
+  },
+  {
+    "title": "Windows Update Stuck",
+    "problem": "Windows update freezes during installation.",
+    "solution": "1. Restart PC. 2. Run Windows Update Troubleshooter. 3. Clear SoftwareDistribution folder. 4. Retry update."
+  },
+  {
+    "title": "No Sound from Speakers",
+    "problem": "System audio not working even though volume is up.",
+    "solution": "1. Check default playback device. 2. Update audio drivers. 3. Restart Windows Audio service."
+  },
+  {
+    "title": "VPN Not Connecting",
+    "problem": "VPN fails to establish secure connection.",
+    "solution": "1. Check internet connection. 2. Verify login credentials. 3. Change VPN protocol. 4. Disable firewall temporarily."
+  },
+  {
+    "title": "Hard Drive Not Detected",
+    "problem": "System BIOS does not detect internal hard drive.",
+    "solution": "1. Check SATA cables. 2. Enter BIOS and enable drive. 3. Replace faulty hard drive."
+  },
+  {
+    "title": "Excel File Not Opening",
+    "problem": "Excel crashes when opening a file.",
+    "solution": "1. Open in safe mode. 2. Disable add-ins. 3. Repair Office installation."
+  },
+  {
+    "title": "Network Adapter Missing",
+    "problem": "Network adapter not visible in Device Manager.",
+    "solution": "1. Restart computer. 2. Update network drivers. 3. Enable adapter in BIOS."
+  },
+  {
+    "title": "High CPU Usage",
+    "problem": "CPU usage remains high even when idle.",
+    "solution": "1. Check Task Manager for heavy processes. 2. Scan for malware. 3. Disable startup programs."
+  }
+]
